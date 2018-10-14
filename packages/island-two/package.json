@@ -1,0 +1,33 @@
+{
+  "name": "@kwri/island-two",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Kenneth L. Rosas <kenneth.lujan@kw.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/island-two.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "next",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@kwri/ioc": "^1.0.0",
+    "@kwri/shell": "^1.0.0",
+    "next": "^7.0.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.1.2"
+  }
+}
