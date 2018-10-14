@@ -9,6 +9,20 @@ Things done so far:
 * [x] Implement Shell + Islands pattern via `@kwri/shell`
 * [ ] Implement Zones with Next.js
 
+## To run it locally do the following
+First, start the individual *islands*
+
+```
+  npm run island-one
+  npm run island-two
+  npm run proxy
+```
+
+Then, start the proxy that'll allow them to play nicely:
+
+```
+  npm run proxy
+```
 
 ## License
 

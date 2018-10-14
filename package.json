@@ -5,7 +5,9 @@
     "build": "lerna run build",
     "commit": "git-cz",
     "lint": "lerna run lint -- --config config/.prettierrc",
-    "proxy": "micro-proxy -r rules-dev.json"
+    "proxy": "micro-proxy -r rules-dev.json",
+    "island-one": "lerna exec --scope=@kwri/island-one -- npm run dev",
+    "island-two": "lerna exec --scope=@kwri/island-two -- npm run dev"
   },
   "config": {
     "commitizen": {

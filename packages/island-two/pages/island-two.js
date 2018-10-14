@@ -16,7 +16,10 @@ class Index extends React.Component {
         </h1>
         <KWRIFooter />
         <br />
-        Go back to <Link href="/">@kwri/island-one</Link>
+        Go back to{' '}
+        <Link href="/" passHref>
+          <a>@kwri/island-one</a>
+        </Link>
       </>
     );
   }
