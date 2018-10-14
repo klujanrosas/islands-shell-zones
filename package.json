@@ -16,7 +16,6 @@
       "pre-commit": "lint-staged"
     }
   },
-  
   "lint-staged": {
     "*.{js, css, json}": [
       "prettier --write --single-quote --trailing-comma es5",
