@@ -4,7 +4,8 @@
   "scripts": {
     "build": "lerna run build",
     "commit": "git-cz",
-    "lint": "lerna run lint -- --config config/.prettierrc"
+    "lint": "lerna run lint -- --config config/.prettierrc",
+    "proxy": "micro-proxy -r rules-dev.json"
   },
   "config": {
     "commitizen": {
@@ -30,6 +31,7 @@
     "lint-staged": "^7.3.0"
   },
   "dependencies": {
+    "micro-proxy": "^1.1.0",
     "prettier": "^1.14.3"
   }
 }

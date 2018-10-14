@@ -1,0 +1,7 @@
+{
+  "rules": [
+    {"pathname": "/island-two", "method":["GET", "POST", "OPTIONS"], "dest": "http://localhost:3002"},
+    {"pathname": "/island-one", "dest": "http://localhost:3001/"},
+    {"pathname": "/**", "dest": "http://localhost:3001"}
+  ]
+}

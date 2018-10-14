@@ -17,7 +17,7 @@
     "access": "public"
   },
   "scripts": {
-    "dev": "next",
+    "dev": "next -p 3002",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {

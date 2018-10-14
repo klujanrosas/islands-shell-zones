@@ -17,11 +17,10 @@
     "access": "public"
   },
   "scripts": {
-    "dev": "next",
+    "dev": "next -p 3001",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "devDependencies": {
-    "@babel/core": "^7.1.2",
     "@babel/plugin-proposal-decorators": "^7.1.2"
   },
   "dependencies": {
