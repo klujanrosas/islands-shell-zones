@@ -10,12 +10,18 @@ Things done so far:
 * [ ] Implement Zones with Next.js
 
 ## To run it locally do the following
-First, start the individual *islands*
+Start by building all the deps:
+
+```
+npm install
+npm run build
+```
+
+After that, start each individual island: 
 
 ```
   npm run island-one
   npm run island-two
-  npm run proxy
 ```
 
 Then, start the proxy that'll allow them to play nicely:
