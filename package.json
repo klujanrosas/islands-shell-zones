@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "build": "lerna run build",
+    "build": "lerna bootstrap && lerna run build",
     "commit": "git-cz",
     "lint": "lerna run lint -- --config config/.prettierrc",
     "proxy": "micro-proxy -r rules-dev.json",
